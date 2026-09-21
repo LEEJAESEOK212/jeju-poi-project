@@ -60,3 +60,26 @@ docs/                                   GitHub에서 읽는 프로젝트 이력�
 - Kakao REST API 키는 코드나 Git에 넣지 않고 환경 변수로 주입합니다.
 - 실행용 원본 CSV와 증거 JSONL은 별도 인수인계 ZIP에 포함합니다.
 - ZIP 안의 `env.example`을 복사해 키를 설정한 뒤 `RUNBOOK.md` 절차를 따릅니다.
+
+## 출처
+
+- 소상공인시장진흥공단_상가(상권)정보
+https://www.data.go.kr/data/15083033/fileData.do
+
+- 행안부 업종별 인허가정보 및 생활편의정보
+https://www.data.go.kr/data/15075531/fileData.do
+
+- 카카오맵 API
+https://apis.map.kakao.com/
+
+- 네이버맵 API
+https://www.ncloud.com/product/applicationService/naverApiHub
+
+- 행안부 영업중 ip
+https://www.safetydata.go.kr/disaster-data/view?dataSn=3362
+
+- 행안부 업종 API
+https://www.data.go.kr/data/15154916/openapi.do
+
+- 인허가 페이지
+https://www.data.go.kr/tcs/dss/selectDataSetList.do?keyword=%EC%9D%B8%ED%97%88%EA%B0%80%EC%A0%95%EB%B3%B4&conditionType=search&org=&orgFilter=&orgFullName=
