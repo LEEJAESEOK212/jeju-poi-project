@@ -1,0 +1,4 @@
+group,targets,primary_source,keep_rule,deactivate_rule,review_unverified_rule
+BUSINESS,"음식점·카페·숙박·병원/약국·편의점/마트/쇼핑·주유소·LPG충전소·운영형 레저/여행지원/캠핑/테마파크/전시문화시설","행안부 공식 데이터 우선; 미확인·다중 후보·조회 오류는 Kakao 보조",공식 영업 또는 Kakao 동일 장소 확인,동일 POI 공식 폐업 근거,"행안부와 Kakao 모두 동일 장소를 확정하지 못하면 REVIEW; Kakao 미검색도 REVIEW"
+FIXED,"공공기관·오름·폭포·해변·숲·문화재·자연환경·고정 관광자원·버스정류소",시설 관리기관·공식 변경 공지,변경 근거 없음,동일 시설 공식 폐쇄·철거·이전·폐지·접근 불가,근거 충돌·불명확은 REVIEW
+INFRA,"전기차충전소·공공화장실·무료 Wi-Fi·부속/공공시설형 주차장",시설별 공식 원천,시설 자체 존재·운영 또는 변경 근거 없음,시설 전용 공식 원천의 폐쇄·철거·폐지,공식 원천 미검색은 REVIEW 또는 KEEP+unverified
