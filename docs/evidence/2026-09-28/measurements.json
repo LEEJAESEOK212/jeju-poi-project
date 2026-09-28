@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-28",
+  "timezone": "Asia/Seoul",
+  "total_targets": 3234,
+  "method": "First and last fully visible rows; clipped boundary rows excluded. Manual transcription.",
+  "before": {
+    "start": "09:53:15",
+    "end": "09:56:25",
+    "completed_start": 165,
+    "completed_end": 181,
+    "image": "before.png"
+  },
+  "after": {
+    "start": "10:06:45",
+    "end": "10:08:15",
+    "completed_start": 307,
+    "completed_end": 328,
+    "image": "after.png"
+  },
+  "limitations": [
+    "Different observation durations and POIs",
+    "Worker counts, cache hits and network conditions not recorded in screenshots",
+    "No controlled benchmark or full-run completion-time measurement"
+  ]
+}
